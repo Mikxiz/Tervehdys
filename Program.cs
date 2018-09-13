@@ -62,12 +62,16 @@ namespace Tervehdys
             puhelinnumero = int.Parse(Console.ReadLine());
             Console.Write("Kerro sähköpostisi: ");
             sähköposti = Console.ReadLine();
+            Console.Clear();
+            Console.WriteLine("Asiakastietokanta:"); //, " + nimi + ", ikäsi on: " + ika.ToString());
             Console.WriteLine();
-            Console.WriteLine("Hyvää päivää, " + nimi + ", ikäsi on: " + ika.ToString());
-            Console.WriteLine("Asut osoitteessa: " + osoite + ", " + postinumero.ToString() + ", " + postitoimipaikka);
+            Console.WriteLine("Nimi: " + nimi);
+            Console.WriteLine("Ikä: " + ika.ToString());
+            Console.WriteLine("Osoite: " + osoite + ", " + postinumero.ToString() + ", " + postitoimipaikka);
             Console.WriteLine();
-            Console.WriteLine("Puhelinnumerosi on: " + puhelinnumero);
-            Console.WriteLine("Sähköpostisi on: " + sähköposti);
+            Console.WriteLine("Yhteystiedot: ");
+            Console.WriteLine("Puhelinnumero: " + puhelinnumero);
+            Console.WriteLine("Sähköposti: " + sähköposti);
             // Miksi postinumerossa/puhelinnumerossa ei näy nolla ensimmäisenä numerona? Esim. 06100 näkyy konsolissa kirjoittaessa 6100
             loppuhetki = DateTime.Now; //aikaleima tietojen syötön jälkeen
             aikaero = loppuhetki.Subtract(alkuhetki).TotalSeconds;
