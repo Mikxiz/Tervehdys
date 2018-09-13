@@ -1,0 +1,6 @@
+C:\Users\Lenovo\source\repos\Tervehdys\Tervehdys\bin\Debug\Tervehdys.exe.config
+C:\Users\Lenovo\source\repos\Tervehdys\Tervehdys\bin\Debug\Tervehdys.exe
+C:\Users\Lenovo\source\repos\Tervehdys\Tervehdys\bin\Debug\Tervehdys.pdb
+C:\Users\Lenovo\source\repos\Tervehdys\Tervehdys\obj\Debug\Tervehdys.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\source\repos\Tervehdys\Tervehdys\obj\Debug\Tervehdys.exe
+C:\Users\Lenovo\source\repos\Tervehdys\Tervehdys\obj\Debug\Tervehdys.pdb
