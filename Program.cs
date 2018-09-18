@@ -22,8 +22,8 @@ namespace Tervehdys
             string postitoimipaikka;
             string sähköposti;
             int ika;
-            int postinumero;
-            int puhelinnumero;
+            string postinumero;
+            string puhelinnumero;
             Console.Write("Tänään on: " + tänään.ToString("F", culture));
             Console.WriteLine(" Tervetuloa hienon konsoliaplikaation käyttäjiksi!"); // Tervehdys teksti
             Console.WriteLine();
@@ -55,11 +55,11 @@ namespace Tervehdys
             Console.Write("Kerro osoitteesi: ");
             osoite = Console.ReadLine();
             Console.Write("Kerro postinumerosi: ");
-            postinumero = int.Parse(Console.ReadLine());
+            postinumero = Console.ReadLine();
             Console.Write("Kerro postitoimipaikkasi: ");
             postitoimipaikka = Console.ReadLine();
             Console.Write("Kerro puhelinnumerosi: ");
-            puhelinnumero = int.Parse(Console.ReadLine());
+            puhelinnumero = Console.ReadLine();
             Console.Write("Kerro sähköpostisi: ");
             sähköposti = Console.ReadLine();
             Console.Clear();
